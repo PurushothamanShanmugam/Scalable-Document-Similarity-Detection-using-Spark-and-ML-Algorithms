@@ -204,7 +204,9 @@ Python	≤ 10K documents
 Spark Batch	100K+ documents
 Kafka + Spark	Real-time scale
 
-## Author
+## Authors
 Purushothaman S
+Pranav Sri Vasthav Tenali Gnana
+Aakanksha Nalamati
 M.Tech Data Engineering
 Indian Institute of Technology Jodhpur
