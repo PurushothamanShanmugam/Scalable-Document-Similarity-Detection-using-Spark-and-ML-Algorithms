@@ -1,0 +1,1 @@
+Document 5 discusses natural language processing helps compare text documents at scale. It also references data engineering pipelines support reliable analytics and reporting.

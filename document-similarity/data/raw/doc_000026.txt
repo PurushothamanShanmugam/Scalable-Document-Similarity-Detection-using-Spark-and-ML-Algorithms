@@ -1,0 +1,1 @@
+Document 26 discusses data engineering pipelines support reliable analytics and reporting. It also references natural language processing helps compare text documents at scale.

@@ -1,0 +1,89 @@
+2026-04-15 19:19:18,781 - INFO - Python pipeline started
+2026-04-15 19:19:18,802 - INFO - Python pipeline completed
+2026-04-16 01:25:18,757 - INFO - Python pipeline started
+2026-04-16 01:25:19,839 - INFO - Python pipeline completed
+2026-04-16 02:00:50,251 - INFO - Python pipeline started
+2026-04-16 02:00:50,515 - INFO - Python pipeline completed
+2026-04-16 02:10:45,891 - INFO - Starting Spark batch pipeline
+2026-04-16 04:41:25,909 - INFO - Starting Spark streaming pipeline
+2026-04-16 04:41:25,918 - ERROR - Spark failed: [WinError 2] The system cannot find the file specified
+2026-04-16 04:41:25,919 - INFO - Switching to Python Kafka fallback
+2026-04-16 04:41:28,622 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 04:41:28,710 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 04:41:28,710 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 04:41:28,711 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 04:41:28,711 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 04:41:28,712 - INFO - Kafka Consumer started
+2026-04-16 04:41:29,084 - WARNING - Topic documents is not available during auto-create initialization
+2026-04-16 04:41:29,084 - INFO - Updated partition assignment: []
+2026-04-16 04:46:30,659 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 04:46:30,673 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 04:46:30,675 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 04:46:30,735 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 04:46:31,085 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 05:11:03,106 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:11:03,135 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 05:11:03,135 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:11:03,135 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 05:11:03,135 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 05:11:03,138 - INFO - Kafka Consumer started
+2026-04-16 05:11:03,141 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 05:11:03,141 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:11:03,141 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:11:03,141 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 05:11:03,157 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 05:34:09,065 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:34:09,083 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 05:34:09,083 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:34:09,083 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 05:34:09,083 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 05:34:09,090 - INFO - Kafka Consumer started
+2026-04-16 05:34:09,093 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 05:34:09,093 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:34:09,095 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:34:09,095 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 05:34:09,104 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 05:43:44,333 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:43:44,347 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 05:43:44,348 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:43:44,349 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 05:43:44,349 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 05:43:44,350 - INFO - Kafka Consumer started
+2026-04-16 05:43:44,353 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 05:43:44,355 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 05:43:44,356 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 05:43:44,356 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 05:43:44,365 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 06:19:24,555 - INFO - Starting Spark streaming pipeline
+2026-04-16 06:26:29,124 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:26:29,140 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 06:26:29,140 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:26:29,140 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 06:26:29,140 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 06:26:29,140 - INFO - Kafka Consumer started
+2026-04-16 06:26:29,152 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 06:26:29,154 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:26:29,156 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:26:29,156 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 06:26:29,186 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 06:58:50,805 - INFO - Starting Spark streaming pipeline
+2026-04-16 06:59:05,358 - ERROR - Spark streaming failed: Command '['D:\\conda_envs\\docsim\\python.exe', 'spark_streaming.py']' returned non-zero exit status 1.
+2026-04-16 06:59:05,358 - INFO - Switching to Python Kafka fallback
+2026-04-16 07:02:21,449 - INFO - Python pipeline started
+2026-04-16 07:02:21,546 - INFO - Preprocessing done in 0.00s
+2026-04-16 07:02:21,548 - INFO - Shingling done in 0.00s
+2026-04-16 07:02:21,762 - INFO - MinHash done in 0.21s
+2026-04-16 07:02:21,768 - INFO - LSH bucketing done (208 buckets)
+2026-04-16 07:02:21,770 - INFO - Candidate pairs found: 695
+2026-04-16 07:02:21,774 - INFO - Similarity computation done (594 matches >= 0.5)
+2026-04-16 07:02:21,780 - INFO - Saving results done in 0.01s
+2026-04-16 07:02:21,780 - INFO - Python pipeline completed
+2026-04-16 08:41:07,337 - INFO - Python pipeline started
+2026-04-16 08:41:07,350 - INFO - Preprocessing done in 0.00s
+2026-04-16 08:41:07,361 - INFO - Shingling done in 0.01s
+2026-04-16 08:41:07,561 - INFO - MinHash done in 0.19s
+2026-04-16 08:41:07,565 - INFO - LSH bucketing done (208 buckets)
+2026-04-16 08:41:07,566 - INFO - Candidate pairs found: 695
+2026-04-16 08:41:07,569 - INFO - Similarity computation done (594 matches >= 0.5)
+2026-04-16 08:41:07,577 - INFO - Saving results done in 0.01s
+2026-04-16 08:41:07,579 - INFO - Python pipeline completed
