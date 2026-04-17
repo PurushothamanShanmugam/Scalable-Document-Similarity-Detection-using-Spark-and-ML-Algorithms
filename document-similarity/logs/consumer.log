@@ -1,0 +1,61 @@
+2026-04-16 06:29:56,450 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:29:56,474 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-04-16 06:29:56,475 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:29:56,476 - WARNING - group_id is None: disabling auto-commit.
+2026-04-16 06:29:56,477 - INFO - Updating subscribed topics to: ('documents',)
+2026-04-16 06:29:56,484 - INFO - Updated partition assignment: [TopicPartition(topic='documents', partition=0)]
+2026-04-16 06:29:56,485 - INFO - Connected to Kafka at localhost:9092
+2026-04-16 06:29:56,486 - INFO - Kafka Consumer started, listening on 'documents'
+2026-04-16 06:29:56,487 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:29:56,490 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:29:56,490 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-04-16 06:29:56,514 - INFO - Resetting offset for partition TopicPartition(topic='documents', partition=0) to offset 0.
+2026-04-16 06:57:56,173 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: socket disconnected
+2026-04-16 06:57:56,177 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,181 - ERROR - Fetch to node 1001 failed: KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,186 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-16 06:57:56,191 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-16 06:57:56,197 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2026-04-16 06:57:56,197 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,198 - WARNING - Node 1001 connection failed -- refreshing metadata
+2026-04-16 06:57:56,205 - ERROR - Fetch to node 1001 failed: KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,239 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:57:56,241 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:57:56,273 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: socket disconnected
+2026-04-16 06:57:56,276 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,276 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-16 06:57:56,280 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-16 06:57:56,283 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2026-04-16 06:57:56,284 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,285 - WARNING - Node 1001 connection failed -- refreshing metadata
+2026-04-16 06:57:56,286 - ERROR - Fetch to node 1001 failed: KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,383 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:57:56,386 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-04-16 06:57:56,392 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: socket disconnected
+2026-04-16 06:57:56,393 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,395 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-16 06:57:56,397 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-16 06:57:56,404 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2026-04-16 06:57:56,404 - ERROR - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-04-16 06:57:56,404 - WARNING - Node 1001 connection failed -- refreshing metadata
+2026-04-16 06:57:56,405 - ERROR - Fetch to node 1001 failed: KafkaConnectionError: socket disconnected
+2026-04-16 06:59:06,607 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:08,604 - WARNING - Kafka connection attempt 1 failed: NoBrokersAvailable
+2026-04-16 06:59:11,619 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:13,629 - WARNING - Kafka connection attempt 2 failed: NoBrokersAvailable
+2026-04-16 06:59:16,638 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:18,641 - WARNING - Kafka connection attempt 3 failed: NoBrokersAvailable
+2026-04-16 06:59:21,648 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:23,648 - WARNING - Kafka connection attempt 4 failed: NoBrokersAvailable
+2026-04-16 06:59:26,656 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:28,662 - WARNING - Kafka connection attempt 5 failed: NoBrokersAvailable
+2026-04-16 06:59:31,679 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:33,689 - WARNING - Kafka connection attempt 6 failed: NoBrokersAvailable
+2026-04-16 06:59:36,706 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:38,719 - WARNING - Kafka connection attempt 7 failed: NoBrokersAvailable
+2026-04-16 06:59:41,724 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:43,721 - WARNING - Kafka connection attempt 8 failed: NoBrokersAvailable
+2026-04-16 06:59:46,736 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:48,737 - WARNING - Kafka connection attempt 9 failed: NoBrokersAvailable
+2026-04-16 06:59:51,755 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-16 06:59:53,767 - WARNING - Kafka connection attempt 10 failed: NoBrokersAvailable
