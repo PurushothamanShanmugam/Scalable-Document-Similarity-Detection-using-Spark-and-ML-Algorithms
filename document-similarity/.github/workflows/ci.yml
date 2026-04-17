@@ -1,0 +1,59 @@
+name: CI - Document Similarity Smoke Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  smoke-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
+
+      - name: Create required folders
+        run: |
+          mkdir -p data/raw
+          mkdir -p data/processed
+          mkdir -p results/plots
+          mkdir -p logs
+
+      - name: Generate sample documents
+        run: |
+          echo "Document similarity using MinHash and LSH for near duplicate detection." > data/raw/doc1.txt
+          echo "Document similarity using MinHash and LSH for duplicate detection." > data/raw/doc2.txt
+          echo "This is a different document about cooking recipes and ingredients." > data/raw/doc3.txt
+
+      - name: Run tests
+        run: pytest -q tests
+
+      - name: Run pipeline (smoke)
+        run: python main.py
+
+      - name: Run evaluation
+        run: python evaluation.py || true
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: docsim-results
+          path: |
+            results/
