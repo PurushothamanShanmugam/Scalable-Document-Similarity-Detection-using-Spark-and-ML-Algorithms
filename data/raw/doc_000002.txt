@@ -1,0 +1,1 @@
+Document 2 discusses natural language processing helps compare text documents at scale. It also references machine learning improves pattern recognition and predictive analytics.
