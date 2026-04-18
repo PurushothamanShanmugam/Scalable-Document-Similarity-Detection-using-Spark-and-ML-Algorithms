@@ -206,7 +206,10 @@ Kafka + Spark	Real-time scale
 
 ## Authors
 Purushothaman S
+
 Pranav Sri Vasthav Tenali Gnana
+
 Aakanksha Nalamati
+
 M.Tech Data Engineering
 Indian Institute of Technology Jodhpur
